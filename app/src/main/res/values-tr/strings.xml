@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smartronic</string>
+    <string name="hello_world">Merhaba dünya!</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_rooms">Odalar</string>
+    <string name="title_activity_index">Ana Sayfa</string>
+    <string name="title_activity_security">Güvenlik</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name ="logout">Cikis</string>
+    <string name ="home">Anasayfa</string>
+    <string name="useful_in_future" formatted="false">you have %d useful strings in %.2f years</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="password_reminder_text">Şifremi Unuttum</string>
+    <string name="saloon">Salon</string>
+    <string name="kitchen">Mutfak</string>
+    <string name="bedroom">Yatak Odası</string>
+    <string name="kidroom">Çocuk Odası</string>
+    <string name="settings_icon">&#xf085;</string>
+    <string name="missions_icon">&#xf0ae;</string>
+    <string name="on">Açık</string>
+    <string name="lamp_status">Lamba Durumu</string>
+    <string name="curtain">Perde</string>
+    <string name="curtain1">Perde 1</string>
+    <string name="curtain2">Perde 2</string>
+    <string name="lamp1">Lamba 1</string>
+    <string name="lamp2">Lamba 2</string>
+    <string name="lamp3">Lamba 3</string>
+    <string name="heater">Kombi</string>
+    <string name="plug1">Priz 1</string>
+    <string name="plug2">Priz 2</string>
+    <string name="plug3">Priz 3</string>
+    <string name="send_button">Gönder</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_button">Giriş</string>
+    <string name="forgot">Şifremi Unuttum</string>
+    <string name="missions">Görevler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="quick_menu">Hızlı Menü</string>
+    <string name="overview">Genel Bakış</string>
+    <string name="rooms">Odalar</string>
+    <string name="security">Güvenlik</string>
+    <string name="magnetic_contact_balcony">Manyetik Kontak Balkon</string>
+    <string name="magnetic_contact_main_entrance">Manyetik Kontak Ana Giriş</string>
+    <string name="motion_sensor_saloon">Salon Hareket Algılama</string>
+    <string name="motion_sensor_hallway">Koridor Hareket Algılama</string>
+    <string name="gas_leak_kitchen">Mutfak Gaz Sızıntısı</string>
+    <string name="flood_bathroom">Banyo Su Baskını</string>
+    <string name="flood_kitchen">Mutfak Su Baskını</string>
+    <string name="status_ok">Yok</string>
+    <string name="status_alert">Alarm</string>
+
+    <!-- formatted strings will be useful in later chapters of android app
+     Resources resources = getResources();
+     String string = resources.getString(R.string.useful_in_future,5,0.5);-->
+
+</resources>

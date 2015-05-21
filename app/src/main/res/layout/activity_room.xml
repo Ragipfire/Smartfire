@@ -1,0 +1,468 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/activity_room"
+    tools:context="smarthouse.smartronic.Rooms"
+    android:background="@drawable/arkaplan"
+    android:visibility="visible">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:id="@+id/saloonTextView"
+                android:layout_width="110dp"
+                style="@style/circle_texts"
+                android:layout_height="110dp"
+                android:background="@drawable/circle"
+                android:radius="10dp"
+                android:gravity="center"
+                android:text="@string/saloon" />
+
+            <Button
+                android:id="@+id/kitchenTextView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle"
+                style="@style/circle_texts"
+                android:radius="10dp"
+                android:gravity="center"
+                android:text="@string/kitchen" />
+
+            <Button
+                android:id="@+id/bedRoomTextView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle"
+                android:radius="10dp"
+                style="@style/circle_texts"
+                android:gravity="center"
+                android:text="@string/bedroom" />
+
+            <Button
+                android:id="@+id/kidRoomTextView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle"
+                android:radius="10dp"
+                style="@style/circle_texts"
+                android:gravity="center"
+                android:text="@string/kidroom" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/kitchen"
+        android:background="@android:color/transparent"
+        android:visibility="visible">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollViewKitchen"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutKitchen">
+
+                <TextView
+                    android:id="@+id/lamp1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp1"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/heater"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/heater"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/lamp2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp2"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/plug1_kitchen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug1"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plug2_kitchen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug2"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/plug3_kitchen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug3"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/curtain_kitchen"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/curtain"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/x"
+        tools:context="smarthouse.smartronic.Rooms"
+        android:background="@android:color/transparent"
+        android:visibility="invisible">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollViewSaloon"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutSaloon">
+
+                <TextView
+                    android:id="@+id/lamp1_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/lamp1"
+                    style="@style/circle_texts"
+                    android:onClick="goLamp1Saloon" />
+
+                <TextView
+                    android:id="@+id/lamp2_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    style="@style/circle_texts"
+                    android:text="@string/lamp2"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="goLamp2Saloon" />
+
+                <TextView
+                    android:id="@+id/lamp3_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    style="@style/circle_texts"
+                    android:text="@string/lamp3"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/plug1_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug1"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plug2_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug2"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plug3_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug3"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/curtain1_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    style="@style/circle_texts"
+                    android:text="@string/curtain1"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/curtain2_saloon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    style="@style/circle_texts"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/curtain2" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/bedroom"
+        android:background="@android:color/transparent">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollViewBedroom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutBedroom">
+
+
+                <TextView
+                    android:id="@+id/lamp1_bed_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp1"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/lamp2_bed_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp2"
+                    android:textColor="#FFFFFF" />
+
+
+                <TextView
+                    android:id="@+id/plug1_bed_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug1"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plug2_bed_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug2"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/kidRoom"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollViewKidRoom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutBathroom">
+
+                <TextView
+                    android:id="@+id/lamp1_kid_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp1"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/lamp2_kid_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/lamp2"
+                    android:textColor="#FFFFFF" />
+
+
+                <TextView
+                    android:id="@+id/plug1_kid_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10dp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug1"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plug2_kid_room"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/circle"
+                    android:radius="10sp"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:text="@string/plug2"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/lamp_on_off"
+        android:inflatedId="@+id/lamp_on_off"
+        android:layout="@layout/on_off"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ViewStub
+        android:id="@+id/tv_on_off"
+        android:inflatedId="@+id/tv_on_off"
+        android:layout="@layout/on_off"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ViewStub
+        android:id="@+id/lamp2_on_off"
+        android:inflatedId="@+id/lamp2_on_off"
+        android:layout="@layout/on_off"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ViewStub
+        android:id="@+id/curtain_settings"
+        android:inflatedId="@+id/curtain_settings"
+        android:layout="@layout/curtain"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

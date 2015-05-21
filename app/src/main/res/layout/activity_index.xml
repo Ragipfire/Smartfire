@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="smarthouse.smartronic.Rooms"
+    android:background="@drawable/arkaplan">
+
+    <Button
+        android:id="@+id/rooms"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/circle"
+        android:radius="10dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="@string/rooms"
+        android:textColor="#FFFFFF"
+        android:onClick="goRooms"
+        android:layout_alignTop="@+id/security"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/security"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/circle"
+        android:radius="10dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="@string/security"
+        android:textColor="#FFFFFF"
+        android:onClick="goSecurity"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:id="@+id/textView3" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:id="@+id/textView4" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/overview"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_menu"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button2"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/missions"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button3"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button4"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        style="@style/settings_missions"
+        android:id="@+id/settings"
+        android:background="@android:color/transparent"
+        android:text="@string/settings_icon"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        style="@style/settings_missions"
+        android:id="@+id/missions"
+        android:background="@android:color/transparent"
+        android:text="@string/missions_icon"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+</RelativeLayout>

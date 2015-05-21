@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="smarthouse.smartronic2.Forgot"
+    android:background="@drawable/arkaplan">
+
+    <TextView
+        android:text="@string/password_reminder_text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#eee"
+        android:fontFamily="Helvetica"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/username"
+        style="@style/LoginTextView"
+        android:layout_marginTop="70dp"
+        android:id="@+id/usernameView"
+        android:focusableInTouchMode="false"
+        android:fontFamily="Helvetica" />
+
+    <EditText
+        android:hint="@string/hint_email"
+        style="@style/TextField"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/UsernameEditText"
+        android:layout_alignTop="@+id/usernameView"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_toRightOf="@+id/usernameView"
+        android:layout_toEndOf="@+id/usernameView" />
+
+    <Button
+        style="@style/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/button"
+        android:id="@+id/LoginButton"
+        android:text="@string/send_button"
+        android:onClick="Forgot"
+        android:layout_below="@+id/usernameView"
+        android:layout_toRightOf="@+id/usernameView"
+        android:layout_alignRight="@+id/UsernameEditText"
+        android:layout_alignEnd="@+id/UsernameEditText" />
+
+</RelativeLayout>

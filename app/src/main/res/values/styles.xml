@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextField">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#eee</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="LoginTextView">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">35dp</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="LoginForgot">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">35dp</item>
+    </style>
+
+    <style name="settings_missions">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="switch_on_off">
+        <item name="android:background">#80000000</item>
+        <item name="android:textColor">#eee</item>
+    </style>
+
+    <style name="circle_texts">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#eee</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Switch">
+        <item name="android:textColor">#eee</item>
+    </style>
+</resources>

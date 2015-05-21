@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smartronic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rooms">Rooms</string>
+    <string name="title_activity_go_security">goSecurity</string>
+    <string name="title_activity_index">Index</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="saloon">Saloon</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="kidroom">Kidroom</string>
+    <string name="useful_in_future" formatted="false">you have %d useful strings in %.2f years</string>
+    <string name="settings_icon">&#xf085;</string>
+    <string name="missions_icon">&#xf0ae;</string>
+    <string name="on">On</string>
+    <string name="lamp_status">Lamp Status</string>
+    <string name="username">Username</string>
+    <string name="curtain">Curtain</string>
+    <string name="curtain1">Curtain 1</string>
+    <string name="curtain2">Curtain 2</string>
+    <string name="lamp1">Lamp 1</string>
+    <string name="lamp2">Lamp 2</string>
+    <string name="lamp3">Lamp 3</string>
+    <string name="heater">Heater</string>
+    <string name="plug1">Plug 1</string>
+    <string name="plug2">Plug 2</string>
+    <string name="plug3">Plug 3</string>
+    <string name="send_button">Send</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="forgot">Forgot Your Password?</string>
+    <string name="hint_email">example@example.com</string>
+    <string name="password_reminder_text">Forgot Password</string>
+    <string name="missions">Missions</string>
+    <string name="settings">Settings</string>
+    <string name="quick_menu">Quick Menu</string>
+    <string name="overview">Overview</string>
+    <string name="rooms">Rooms</string>
+    <string name="security">Security</string>
+    <string name="status_ok">OK</string>
+    <string name="status_alert">Alert</string>
+    <string name="lamp_settings">Lamp Settings</string>
+
+
+    <!--
+     formatted strings will be useful in later chapters of android app
+     Resources resources = getResources();
+     String string = resources.getString(R.string.useful_in_future,5,0.5);
+    -->
+
+    <string name="title_activity_room">Room</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_forgot">Forgot</string>
+    <string name="title_activity_security">Security</string>
+    <string name="magnetic_contact_balcony">Magnetic Contact Balcony</string>
+    <string name="magnetic_contact_main_entrance">Magnetic Contact Main Entrance</string>
+    <string name="motion_sensor_saloon">Motion Sensor Saloon</string>
+    <string name="motion_sensor_hallway">Motion Sensor Hallway</string>
+    <string name="gas_leak_kitchen">Gas Leak Kitchen</string>
+    <string name="flood_bathroom">Flood Bathroom</string>
+    <string name="flood_kitchen">Flood Kitchen</string>
+
+</resources>
