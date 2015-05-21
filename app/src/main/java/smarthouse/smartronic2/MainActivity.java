@@ -49,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String URL = "http://ragip.info/Controller/index_melih.php";
 
-    // Followed URL's will be used when posting data to mios vera deneu burak
+    // Followed URL's will be used when posting data to mios vera deneu burak orkun
 
     /*private static final String URLLogin = "http://example_server/autha/auth/username/x?";
     private static final String URLRegister = "http://example_server/autha/auth/username";
