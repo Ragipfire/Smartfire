@@ -30,7 +30,7 @@ public class Index extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; this adds items to the action bar if it is present. melis
         getMenuInflater().inflate(R.menu.menu_index, menu);
         menu.add(R.string.home);
         menu.add(R.string.logout);
