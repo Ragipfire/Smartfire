@@ -63,7 +63,7 @@ public class MainActivity extends ActionBarActivity {
     /*JSONObject json = new JSONObject();
     JSONObject json2 = new JSONObject();*/
 
-    String MyPREFERENCES = "eben.txt";
+    String MyPREFERENCES = "file.txt";
 
 
     @Override
@@ -174,7 +174,7 @@ public class MainActivity extends ActionBarActivity {
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            Toast.makeText(getApplicationContext(),s, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(),s, Toast.LENGTH_SHORT).show();
 
             new Handler().postDelayed(new Runnable() {
                 @Override
@@ -207,8 +207,8 @@ public class MainActivity extends ActionBarActivity {
                 // encoded username will be posted to mios vera
                 String encodedUsername = URLEncoder.encode(username, "utf-8");
 
-                System.out.println(hashedPassword);
-                System.out.println(encodedUsername);
+                //System.out.println(hashedPassword);
+                //System.out.println(encodedUsername);
 
                 postData.put("username", encodedUsername);
                 postData.put("Password", hashedPassword);
