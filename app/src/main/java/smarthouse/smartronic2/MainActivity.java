@@ -38,6 +38,7 @@ public class MainActivity extends ActionBarActivity {
 
     EditText ed1;
     EditText ed2;
+    // sıkıldım ama
     Button loginButton;
     String username, password;
     String salt = "oZ7QE6LcLJp6fiWzdqZc";
