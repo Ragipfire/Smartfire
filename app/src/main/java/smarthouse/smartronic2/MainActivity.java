@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
     Boolean error = false;
     String selectedOption;
     //String[] Logout = {"Yes", "No"};
-    String[] Home = {};
+    //String[] Home = {};
 
     private static final String URL = "http://ragip.info/Controller/index_melih.php";
 
