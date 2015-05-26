@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
     EditText ed2;
     Button loginButton;
     String username, password;
-    //String salt = "oZ7QE6LcLJp6fiWzdqZc";
+    String salt = "oZ7QE6LcLJp6fiWzdqZc";
     String errorFormat = "";
     Boolean error = false;
     String selectedOption;
