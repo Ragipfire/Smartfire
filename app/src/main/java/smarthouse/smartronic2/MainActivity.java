@@ -38,7 +38,6 @@ public class MainActivity extends ActionBarActivity {
 
     EditText ed1;
     EditText ed2;
-    // sıkıldım ama
     Button loginButton;
     String username, password;
     String salt = "oZ7QE6LcLJp6fiWzdqZc";
@@ -50,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String URL = "http://ragip.info/Controller/index_melih.php";
 
-    // Followed URL's will be used when posting data to mios vera
+    // Followed URL's will be used when posting data to mios vera eben var mı?
 
     /*private static final String URLLogin = "http://example_server/autha/auth/username/x?";
     private static final String URLRegister = "http://example_server/autha/auth/username";
